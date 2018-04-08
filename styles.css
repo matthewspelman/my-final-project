@@ -1,0 +1,81 @@
+html,
+body {
+	height: 100%;
+	max-width: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+}
+
+.navbar-header {
+	color: white;
+}
+
+.logo {
+	max-width: 100%;
+	padding: 10px;
+}
+
+.model {
+	max-width: 100%;
+	padding: 5px;
+}
+
+#map {
+	background: gray;
+	border: 1px solid black;
+	height: 400px;
+	width: 100%;
+	display: inline-block;
+	margin: 0;
+}
+
+footer {
+	padding: 10px;
+}
+
+/*for webapp.html styling*/
+#web-app-container {
+	padding: 10px;
+}
+
+ /*make sure to add section later! */ 
+#sign-in-container {
+  display: none;
+}
+
+@media handheld, only screen and (max-width: 767px) {
+
+body {
+    text-align: center;
+    align-content: center;
+    display: block;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+
+#map {
+	background: gray;
+	border: 1px solid black;
+	height: 300px;
+	width: 300px;
+	display: inline-block;
+}
+
+.model {
+	max-width: 115%;
+	}
+
+.logo {
+	max-width: 100%;
+	padding: 10px;
+	}
+
+}
+
+/*make sure to add section later! */ 
+#sign-in-container {
+  display: none;
+}
